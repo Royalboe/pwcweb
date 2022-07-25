@@ -40,16 +40,16 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div style="width: 100%; border: 1px solid #fff; margin: 20px 0"></div>
+        {/* <div style="width: 100%; border: 1px solid #fff; margin: 20px 0"></div> */}
         <div>
-          <img src="./assets/PwC-logo.svg" height="70px" width="70px" />
-          <span>
+          <img src="./assets/PwC-logo.svg" height="70px" width="70px" alt=""/>
+          {/* <span>
             <p style="color: #fff; font-size: 20px; display: inline-block">
               Contact us:
-            </p>
-            <a href="">
+            </p> */}
+            {/* <a href="">
               <i
-                class="fab fa-facebook"
+                className="fab fa-facebook"
                 aria-hidden="true"
                 style="color: #fff"
               ></i>
@@ -82,19 +82,19 @@ const Footer = () => {
                 style="color: #fff"
               ></i>
             </a>
-          </span>
+          </span> */}
         </div>
       </footer>
 
-      <div
+      {/* <div
         id="night-mode-icon"
-        style="
-        position: absolute;
-        top: 17%;
-        right: 20px;
-        width: 40px;
-        cursor: pointer;
-      "
+    //     style="
+    //     position: absolute;
+    //     top: 17%;
+    //     right: 20px;
+    //     width: 40px;
+    //     cursor: pointer;
+    //   "
       >
         <img
           src="./assets/halfmoon.png"
@@ -103,7 +103,7 @@ const Footer = () => {
           width="100%"
           height="100%"
         />
-      </div>
+      </div> */}
     </div>
   );
 };

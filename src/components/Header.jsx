@@ -5,7 +5,8 @@ const Header = () => {
     <div>
       <header className="header">
         <nav className="navbar">
-          <img src="./assets/PwC-logo.svg" />
+          <img src="./assets/PwC-logo.svg" alt="" />
+
           <h2>Student Website</h2>
 
           <div>

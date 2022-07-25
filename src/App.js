@@ -4,11 +4,15 @@ import "./App.css";
 // import Title from "./components/Function";
 // import { Description } from "./components/Function";
 // import Card from "./components/Card";
-import home from "./pages/home";
+import Home from "./pages/Home";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 function App() {
   return (
     <div className="App">
-      <home />
+      <Header />
+      <Home />
+      <Footer />
     </div>
   );
 }
